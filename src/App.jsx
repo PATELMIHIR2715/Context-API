@@ -9,10 +9,12 @@ function App() {
 
   return (
     <UserContextProvider>
-      <Login />
-      <Profile/>
+      <div className="main-container">
+        <Login />
+        <Profile />
+      </div>
     </UserContextProvider>
-  )
+  );
 }
 
 export default App
