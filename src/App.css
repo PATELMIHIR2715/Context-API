@@ -26,6 +26,12 @@
   border: 1px solid black;
   font-weight: 500;
   background-color: lightblue;
+  
+  /* transition: 2s ease; */
+}
+.btn:hover{
+  transition: 1s all ease;
+  background-color: rgb(121, 154, 164);
 }
 input{
   padding: 5px;
